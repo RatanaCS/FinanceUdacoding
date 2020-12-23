@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumuzu.financeudacoding">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/coolkidsitting"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/coolkidsitting"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".pembelian.InputPembelianActivity"></activity>
+        <activity android:name=".master.konsumen.InputKonsumenActivity" />
+        <activity android:name=".master.konsumen.KonsumenActivity" />
+        <activity android:name=".master.supplier.InputSupplierActivity" />
+        <activity android:name=".master.supplier.SupplierActivity" />
+        <activity android:name=".master.kategori.InputKategoriActivity" />
+        <activity android:name=".master.kategori.KategoriActivity" />
+        <activity android:name=".master.produk.InputProdukActivity" />
+        <activity android:name=".master.produk.ProdukActivity" />
+        <activity android:name=".penjualan.PenjualanActivity" />
+        <activity android:name=".pembelian.PembelianActivity" />
+        <activity android:name=".report.ReportActivity" />
+        <activity
+            android:name=".master.MasterActivity"
+            android:theme="@style/NoAppTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
